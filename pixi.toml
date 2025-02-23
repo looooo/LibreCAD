@@ -23,3 +23,6 @@ cmake = ">=3.31.4,<4"
 
 [target.linux-64.dependencies]
 libgl-devel = "*"
+
+[target.linux-aarch64.dependencies]
+libgl-devel = "*"
